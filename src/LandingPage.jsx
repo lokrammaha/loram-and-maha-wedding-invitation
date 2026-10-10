@@ -44,7 +44,7 @@ const LandingPage = ({ onEnvelopeOpen }) => {
             {/* Letter inside */}
             <div className={`env-letter ${showLetter ? 'env-letter-out' : ''}`}>
               <p className="letter-line1">You're Invited!</p>
-              <p className="letter-line2">B & M</p>
+              <p className="letter-line2">L & M</p>
             </div>
 
             {/* Envelope front bottom half */}
@@ -55,7 +55,7 @@ const LandingPage = ({ onEnvelopeOpen }) => {
 
             {/* Wax seal */}
             <div className={`env-seal ${isOpening ? 'env-seal-gone' : ''}`}>
-              B&M
+              L&M
             </div>
           </div>
 

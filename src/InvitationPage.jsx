@@ -152,7 +152,7 @@ const InvitationPage = () => {
           </div>
           <div className="event-detail-card">
             <div className="event-stars">✦ · ✦</div>
-            <h2 className="event-title-script">Nischayathartham</h2>
+            <h2 className="event-title-script">Nichayathartham</h2>
 
             <div className="event-info-row">
               <span className="event-info-icon">📅</span>
@@ -164,7 +164,7 @@ const InvitationPage = () => {
               <span className="event-info-icon">🕒</span>
               <span className="event-info-label">TIME</span>
               <span className="event-info-dot">·</span>
-              <span className="event-info-value">6:00 PM to 7:00 PM · Nischayathartham</span>
+              <span className="event-info-value">4:00 PM to 5:00 PM · Nichayathartham</span>
             </div>
             <div className="event-info-row">
               <span className="event-info-icon">🕡</span>
