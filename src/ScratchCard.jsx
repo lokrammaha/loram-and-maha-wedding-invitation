@@ -21,14 +21,14 @@ const ScratchCard = ({ revealContent, coverText }) => {
           angle: 60,
           spread: 70,
           origin: { x: 0, y: 0.6 },
-          colors: ['#e58a9e', '#d4af37', '#ffffff', '#f9a8ba', '#FFD700']
+          colors: ['#b86a42', '#d4af37', '#ffffff', '#8a4938', '#FFD700']
         });
         confetti({
           particleCount: 5,
           angle: 120,
           spread: 70,
           origin: { x: 1, y: 0.6 },
-          colors: ['#e58a9e', '#d4af37', '#ffffff', '#f9a8ba', '#FFD700']
+          colors: ['#b86a42', '#d4af37', '#ffffff', '#8a4938', '#FFD700']
         });
 
         if (Date.now() < end) {
@@ -51,11 +51,11 @@ const ScratchCard = ({ revealContent, coverText }) => {
       canvas.width = container.offsetWidth;
       canvas.height = container.offsetHeight;
       
-      // Solid pink gradient cover — fully opaque
+      // Solid burgundy gradient cover — fully opaque
       const gradient = ctx.createLinearGradient(0, 0, canvas.width, canvas.height);
-      gradient.addColorStop(0, '#e58a9e');
-      gradient.addColorStop(0.5, '#f2a3b5');
-      gradient.addColorStop(1, '#f9b8c6');
+      gradient.addColorStop(0, '#54232a');
+      gradient.addColorStop(0.5, '#8a4938');
+      gradient.addColorStop(1, '#b86a42');
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       

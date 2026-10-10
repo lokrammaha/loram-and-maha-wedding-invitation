@@ -4,7 +4,7 @@
   margin: 0 auto;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 15px 30px rgba(229, 138, 158, 0.12);
+  box-shadow: 0 15px 30px rgba(220, 166, 92, 0.18);
 }
 
 /* ===== DAY BANNER ===== */
@@ -90,7 +90,7 @@
 }
 
 .event-info-dot {
-  color: #c9a0ab;
+  color: #b58b55;
   font-size: 0.8rem;
 }
 

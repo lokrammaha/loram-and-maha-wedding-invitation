@@ -279,7 +279,7 @@ const InvitationPage = () => {
       
       <footer className="footer">
         <div className="footer-hearts">♥ ♥ ♥</div>
-        <p>Made with ❤️ Lokram & Mahalakshmi</p>
+        <p>Made with ♥ Lokram & Mahalakshmi</p>
       </footer>
     </div>
   );

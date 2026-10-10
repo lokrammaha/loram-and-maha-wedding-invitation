@@ -97,7 +97,7 @@
 }
 
 .script-ampersand {
-  color: #c9506a;
+  color: #dca65c;
   font-family: var(--font-names);
   background: linear-gradient(90deg, #dca65c, #fff0d5, #dca65c);
   background-size: 200% auto;
@@ -125,7 +125,7 @@
   -webkit-backdrop-filter: blur(16px);
   border-radius: 16px;
   padding: 30px;
-  box-shadow: 0 18px 36px rgba(31, 98, 89, 0.12);
+  box-shadow: 0 18px 36px rgba(50, 19, 27, 0.18);
   border: 1px solid rgba(255, 255, 255, 0.8);
   margin-top: 30px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -133,7 +133,7 @@
 
 .card-container:hover {
   transform: translateY(-3px);
-  box-shadow: 0 22px 38px rgba(31, 98, 89, 0.18);
+  box-shadow: 0 22px 38px rgba(50, 19, 27, 0.24);
 }
 
 .couple-photo {
@@ -172,7 +172,7 @@
 .reveal-details h3 {
   font-family: var(--font-script);
   font-size: 2rem;
-  color: var(--pink-accent);
+  color: var(--gold);
   margin: 10px 0 5px;
 }
 
@@ -228,7 +228,7 @@
 }
 
 .inline-icon {
-  color: #c9506a;
+  color: #b86a42;
 }
 
 /* ===== BTN PRIMARY ===== */
@@ -237,7 +237,7 @@
   align-items: center;
   gap: 8px;
   padding: 14px 28px;
-  background: linear-gradient(135deg, #c9506a, #d16b84);
+  background: linear-gradient(135deg, #8a4938, #b86a42);
   color: #fff;
   border-radius: 30px;
   font-family: var(--font-sans);
@@ -245,13 +245,13 @@
   font-weight: 600;
   letter-spacing: 1px;
   text-decoration: none;
-  box-shadow: 0 6px 20px rgba(201, 80, 106, 0.3);
+  box-shadow: 0 6px 20px rgba(138, 73, 56, 0.35);
   transition: all 0.3s ease;
 }
 
 .btn-primary:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px rgba(201, 80, 106, 0.4);
+  box-shadow: 0 10px 25px rgba(138, 73, 56, 0.45);
 }
 
 /* ===== COUNTDOWN ===== */
@@ -267,7 +267,7 @@
 
 .event-date {
   font-weight: 700;
-  color: #c9506a;
+  color: #dca65c;
   margin-bottom: 40px;
   display: flex;
   align-items: center;
@@ -288,8 +288,8 @@
 }
 
 .time-box {
-  background: linear-gradient(180deg, #fff 0%, #fff5f7 100%);
-  border: 2px solid rgba(229, 138, 158, 0.25);
+  background: linear-gradient(180deg, #fffaf0 0%, #f6e8cb 100%);
+  border: 2px solid rgba(220, 166, 92, 0.4);
   border-radius: 14px;
   width: 72px;
   height: 72px;
@@ -297,7 +297,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 6px 18px rgba(229, 138, 158, 0.12);
+  box-shadow: 0 6px 18px rgba(220, 166, 92, 0.18);
   transition: transform 0.3s ease;
 }
 
@@ -308,7 +308,7 @@
 .time-value {
   font-size: 1.6rem;
   font-weight: 700;
-  color: #c9506a;
+  color: #8a4938;
 }
 
 .time-label {
@@ -333,7 +333,7 @@
 
 .footer-hearts {
   font-size: 1rem;
-  color: #e58a9e;
+  color: #dca65c;
   letter-spacing: 8px;
   margin-bottom: 10px;
   animation: pulse 2s infinite;

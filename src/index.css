@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Great+Vibes&family=Montserrat:wght@300;400;500;600&display=swap');
 
 :root {
-  --primary-color: #f7efe9;
-  --secondary-color: #fffaf7;
+  --primary-color: #32131b;
+  --secondary-color: #54232a;
   --accent-color: #d8ae54;
   --text-dark: #243b35;
   --text-light: #71857d;
-  --pink-accent: #efb4c2;
-  --rose: #f6d9df;
-  --green: #1f6259;
-  --green-deep: #16443b;
+  --warm-accent: #dca65c;
+  --terracotta: #8a4938;
+  --green: #8a4938;
+  --green-deep: #54232a;
   --gold: #d7b15f;
   --paper: #fffaf8;
-  --shadow: rgba(31, 98, 89, 0.14);
+  --shadow: rgba(50, 19, 27, 0.18);
   
   --font-script: 'Great Vibes', cursive;
   --font-names: 'Alex Brush', cursive;
@@ -29,10 +29,10 @@
 body {
   font-family: var(--font-sans);
   background:
-    radial-gradient(circle at 15% 10%, rgba(255, 208, 220, 0.8), transparent 18%),
-    radial-gradient(circle at 80% 12%, rgba(228, 185, 97, 0.3), transparent 16%),
-    radial-gradient(circle at 50% 80%, rgba(255, 233, 239, 0.7), transparent 25%),
-    linear-gradient(180deg, #fdf5f2 0%, #f7e8e3 35%, #f5dfe7 100%);
+    radial-gradient(circle at 15% 10%, rgba(174, 91, 48, 0.32), transparent 18%),
+    radial-gradient(circle at 80% 12%, rgba(228, 185, 97, 0.22), transparent 16%),
+    radial-gradient(circle at 50% 80%, rgba(138, 73, 56, 0.18), transparent 25%),
+    linear-gradient(180deg, #32131b 0%, #54232a 50%, #32131b 100%);
   color: var(--text-dark);
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
@@ -81,7 +81,7 @@ body {
 .section-title {
   font-family: var(--font-script);
   font-size: 2.5rem;
-  color: var(--pink-accent);
+  color: var(--warm-accent);
   margin-bottom: 1.5rem;
   text-align: center;
 }
@@ -119,7 +119,7 @@ body {
 .shape-1 {
   width: 300px;
   height: 300px;
-  background-color: #ffd6e0;
+  background-color: #b86a42;
   top: -100px;
   left: -100px;
 }
@@ -127,7 +127,7 @@ body {
 .shape-2 {
   width: 400px;
   height: 400px;
-  background-color: #ffe6eb;
+  background-color: #8a4938;
   bottom: -150px;
   right: -100px;
 }

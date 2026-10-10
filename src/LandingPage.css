@@ -5,7 +5,9 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  background: radial-gradient(circle at top, #f9ebef 0%, #f4e5e1 35%, #efe2dd 100%);
+  background:
+    radial-gradient(circle at top, rgba(174, 91, 48, 0.35) 0%, transparent 42%),
+    linear-gradient(180deg, #32131b 0%, #54232a 55%, #32131b 100%);
   overflow: hidden;
   z-index: 10;
 }
@@ -48,7 +50,7 @@
   font-family: var(--font-sans);
   font-size: 0.7rem;
   letter-spacing: 5px;
-  color: var(--green);
+  color: #f2d9b4;
   line-height: 1.8;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -78,7 +80,7 @@
   top: 0; left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(135deg, #193832, #102722);
+  background: linear-gradient(135deg, #54232a, #32131b);
   border: 1px solid rgba(218, 184, 111, 0.45);
   border-radius: 6px;
   z-index: 1;
@@ -90,7 +92,7 @@
   bottom: 0; left: 0;
   width: 100%;
   height: 65%;
-  background: linear-gradient(180deg, #294d43 0%, #18362f 100%);
+  background: linear-gradient(180deg, #713b32 0%, #54232a 100%);
   border-radius: 0 0 6px 6px;
   z-index: 4;
   /* Inner shadow to mimic depth */
@@ -123,7 +125,7 @@
   top: 0; left: 0;
   width: 100%;
   height: 55%;
-  background: linear-gradient(180deg, #3c6256 0%, #203f35 100%);
+  background: linear-gradient(180deg, #8a4938 0%, #713b32 100%);
   border-radius: 6px 6px 0 0;
   z-index: 5;
   transform-origin: top center;
@@ -167,7 +169,7 @@
   font-family: var(--font-serif);
   font-style: italic;
   font-size: 1rem;
-  color: #d16b84;
+  color: #b86a42;
   margin: 0 0 5px;
 }
 .letter-line2 {
@@ -213,7 +215,7 @@
   font-family: var(--font-sans);
   font-size: 0.7rem;
   letter-spacing: 2px;
-  color: #b89da5;
+  color: #f2d9b4;
   text-transform: uppercase;
   margin-top: 14px;
   animation: pulse 2s infinite;
@@ -266,7 +268,7 @@
 .ampersand {
   font-family: var(--font-names);
   font-size: 3.2rem;
-  color: var(--green);
+  color: #f2d9b4;
   margin: 10px 0;
   font-weight: bold;
   animation: nameWave 4s ease-in-out infinite;
@@ -276,7 +278,7 @@
   font-family: var(--font-sans);
   font-size: 0.7rem;
   letter-spacing: 4px;
-  color: var(--green);
+  color: #dca65c;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
@@ -284,7 +286,7 @@
   font-family: var(--font-sans);
   font-size: 0.7rem;
   letter-spacing: 3px;
-  color: var(--green);
+  color: #f2d9b4;
   text-transform: uppercase;
   margin-bottom: 0;
 }

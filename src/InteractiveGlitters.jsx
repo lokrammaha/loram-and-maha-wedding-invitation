@@ -56,11 +56,11 @@ const InteractiveGlitters = () => {
         this.rotation = Math.random() * Math.PI * 2;
         this.rotationSpeed = (Math.random() - 0.5) * 0.02;
 
-        // Warm colors: pinks, golds, soft reds
+        // Warm accents to match the burgundy and gold theme
         const colors = [
-          '#e58a9e', '#f2a3b5', '#d4af37', 
-          '#f9b8c6', '#c9506a', '#FFD700',
-          '#ea6487', '#edc3cf'
+          '#b86a42', '#d99a56', '#d4af37',
+          '#8a4938', '#a95842', '#FFD700',
+          '#e2bd7b', '#f2d9b4'
         ];
         this.color = colors[Math.floor(Math.random() * colors.length)];
       }
