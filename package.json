@@ -3,7 +3,7 @@
     "private":  true,
     "version":  "0.0.0",
     "type":  "module",
-    "homepage":  "https://imsaravanan85.github.io/loram-and-maha-wedding-invitation/",
+    "homepage":  "https://lokrammaha.github.io/loram-and-maha-wedding-invitation/",
     "scripts":  {
                     "dev":  "vite",
                     "build":  "vite build",
