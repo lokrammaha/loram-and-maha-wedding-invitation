@@ -1,8 +1,8 @@
 .invitation-container {
   min-height: 100vh;
   background:
-    radial-gradient(ellipse at 50% 0%, rgba(67, 112, 91, 0.42), transparent 42%),
-    linear-gradient(180deg, #102720 0%, #17382e 48%, #102720 100%);
+    radial-gradient(ellipse at 50% 0%, rgba(174, 91, 48, 0.38), transparent 42%),
+    linear-gradient(180deg, #32131b 0%, #54232a 48%, #32131b 100%);
   padding-bottom: 50px;
   position: relative;
 }
@@ -14,10 +14,10 @@
   width: 100vw;
   height: 100vh;
   background-image:
-    radial-gradient(circle at 10% 10%, rgba(112, 156, 128, 0.16) 0, transparent 16%),
-    radial-gradient(circle at 85% 15%, rgba(215, 177, 95, 0.12) 0, transparent 18%),
-    radial-gradient(circle at 50% 50%, rgba(79, 122, 96, 0.12) 0, transparent 22%),
-    radial-gradient(rgba(221, 195, 133, 0.12) 1px, transparent 1px);
+    radial-gradient(circle at 10% 10%, rgba(220, 127, 74, 0.16) 0, transparent 16%),
+    radial-gradient(circle at 85% 15%, rgba(244, 195, 112, 0.15) 0, transparent 18%),
+    radial-gradient(circle at 50% 50%, rgba(165, 75, 66, 0.16) 0, transparent 22%),
+    radial-gradient(rgba(244, 207, 145, 0.14) 1px, transparent 1px);
   background-size: 100% 100%, 100% 100%, 100% 100%, 22px 22px;
   opacity: 1;
   z-index: 0;
@@ -38,7 +38,7 @@
   font-family: var(--font-serif);
   font-size: 2rem;
   font-weight: 700;
-  color: #f0dfb6;
+  color: #f5ddbb;
   letter-spacing: 2px;
 }
 
@@ -78,7 +78,7 @@
   line-height: 1.1;
   font-weight: bold;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.04);
-  background: linear-gradient(90deg, #f2dfb1, #ffffff, #d5b76c);
+  background: linear-gradient(90deg, #f2c982, #fff0d5, #dca65c);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -99,7 +99,7 @@
 .script-ampersand {
   color: #c9506a;
   font-family: var(--font-names);
-  background: linear-gradient(90deg, #d5b76c, #fff5d9, #d5b76c);
+  background: linear-gradient(90deg, #dca65c, #fff0d5, #dca65c);
   background-size: 200% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -111,7 +111,7 @@
   font-family: var(--font-serif);
   font-size: 1.3rem;
   font-style: italic;
-  color: #e0e9df;
+  color: #f3e5d5;
   font-weight: 500;
   max-width: 500px;
   margin: 0 auto;
@@ -150,7 +150,7 @@
   font-family: var(--font-serif);
   font-size: 1.3rem;
   line-height: 1.8;
-  color: #f1eadb;
+  color: #f5e8d9;
   font-style: italic;
   font-weight: 500;
 }
@@ -161,7 +161,7 @@
   font-weight: 600;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #d9cba6;
+  color: #f2d9b4;
   margin-bottom: 20px;
 }
 
@@ -260,7 +260,7 @@
   font-size: 1.1rem;
   line-height: 1.7;
   margin-bottom: 20px;
-  color: #e0e9df;
+  color: #f3e5d5;
   font-weight: 500;
   font-style: italic;
 }
@@ -324,7 +324,7 @@
 .footer {
   text-align: center;
   padding: 40px 20px;
-  color: #d9cba6;
+  color: #f2d9b4;
   font-size: 0.9rem;
   font-weight: 600;
   position: relative;

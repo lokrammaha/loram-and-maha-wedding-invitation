@@ -142,12 +142,12 @@ const InvitationPage = () => {
 
       <div className="section-divider"><span className="divider-line"></span><span className="divider-icon">♥</span><span className="divider-line"></span></div>
 
-      {/* ===== DAY 1 · NISCHAYATHARTHAM & RECEPTION ===== */}
+      {/* ===== DAY 1 · NICHAYATHARTHAM & RECEPTION ===== */}
       <section className="section event-detail-section">
         <div className="event-block">
           <div className="day-banner">
             <div className="day-banner-line"></div>
-            <span className="day-banner-text">DAY 1 · NISCHAYATHARTHAM</span>
+            <span className="day-banner-text">DAY 1 · NICHAYATHARTHAM</span>
             <div className="day-banner-line"></div>
           </div>
           <div className="event-detail-card">
